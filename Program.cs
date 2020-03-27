@@ -33,6 +33,7 @@ namespace TextTonality
                     c += 2;
                 }
             }
+
             // Чтения файла для определения тональности
             Console.Write("[ОПРЕДЕЛЕНИЕ ТОНАЛЬНОСТИ ФАЙЛА]\nПуть к файлу:\n");
             string file = Console.ReadLine();
