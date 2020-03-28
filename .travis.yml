@@ -1,5 +1,7 @@
 language: csharp
 mono: none
-dotnet: 2.0.3
-script:
- - dotnet restore Text_Tonality.csproj
+dotnet: 2.1.200
+
+script: "sbt clean coverage test"
+
+after_success: "sbt coveralls"
