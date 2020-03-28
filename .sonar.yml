@@ -1,0 +1,5 @@
+addons:
+  sonarcloud:
+    organisation: "ziutyr"
+script:
+ - sonar-scanner
